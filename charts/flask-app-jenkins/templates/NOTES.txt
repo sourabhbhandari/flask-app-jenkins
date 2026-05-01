@@ -1,0 +1,10 @@
+Thanks for installing {{ .Chart.Name }} ({{ .Chart.AppVersion }}).
+
+Get the application URL:
+
+  kubectl --namespace {{ .Release.Namespace }} port-forward svc/{{ include "flask-app-jenkins.fullname" . }} 8080:{{ .Values.service.port }}
+
+Then open http://localhost:8080/ — you should see a hello-world JSON payload.
+
+Liveness:  http://localhost:8080/healthz
+Readiness: http://localhost:8080/readyz

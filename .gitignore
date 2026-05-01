@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Pipeline-produced artifacts
+sbom/
+helm-pkg/
+.jenkins-shared-lib/
+*.tgz

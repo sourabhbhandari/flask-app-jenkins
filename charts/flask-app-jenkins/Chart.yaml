@@ -1,0 +1,10 @@
+apiVersion: v2
+name: flask-app-jenkins
+description: Tiny Flask hello-world app for exercising the jenkins-shared-lib pipeline.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+icon: https://www.python.org/static/community_logos/python-logo.png
+maintainers:
+  - name: sourabh
+    email: sourabh.hexa16@gmail.com
